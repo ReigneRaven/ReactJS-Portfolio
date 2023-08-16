@@ -272,9 +272,9 @@ b{
 }
 
 
-/* ABOUT */
+/* EDUCATION */
 
-.AboutPage{
+.EducationPage{
   display: flex;
   justify-content: space-evenly;
   margin-top: 100px;
@@ -283,19 +283,19 @@ b{
   padding: 25px;
 }
 
-.AboutText{
+.EducationText{
   width: 50%;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 1.2px;
 }
-.AboutTextHeading{
+.EducationTextHeading{
   font-size: 35px;
   font-weight: 600;
   padding-bottom: 40px;
 }
-.AboutText a{
+.EducationText a{
   color: #9067C6;
   text-decoration: underline;
   font-weight: bold;
@@ -306,13 +306,13 @@ b{
 }
 
 @media(max-width:900px){
-  .AboutPage{
+  .EducationPage{
     display: block;
     text-align: center;
     margin-top: 150px;
     padding: 30px;    
   }
-  .AboutText{
+  .EducationText{
     text-align: left;
     display: inline-block;
     width: 95%;
@@ -320,7 +320,7 @@ b{
     letter-spacing: 0.6px;
     margin-bottom: 80px;
   }
-  .AboutTextHeading{
+  .EducationTextHeading{
     font-size: 26px;
   }
 
@@ -363,7 +363,7 @@ b{
 }
 
 @media(max-width: 500px) {
-  .AboutText{
+  .EducationText{
     font-size: 16px;
   }
   .Avatar{

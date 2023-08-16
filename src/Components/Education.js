@@ -4,15 +4,15 @@ import Tilt from 'react-parallax-tilt';
 import Lottie from "lottie-react"
 import Coder from '../LottieFiles/coder.json';
 
-const About = () => {
+const Education = () => {
   return (
     <>
-      <div className='AboutPage'>
-        <div className='AboutText'>
-          <h1 className='AboutTextHeading' >Get to <b>know</b> me!</h1>
+      <div className='EducationPage'>
+        <div className='EducationText'>
+          <h1 className='EducationTextHeading' >Get to <b>know</b> me!</h1>
           <p>
-            Hi, my name is <b>Devansh Sahni</b> and I am from New Delhi, India.
-            I'm a <b>MERN stack web developer</b> and a final year college student pursuing <b>BTech in CSE</b>. <br/><br/>
+            Hi, my name is <b>Reigne Raven</b> and I am 3rd Year IT student from UPANG
+            I'm a <b>Web developer</b> and a final year college student pursuing <b>BTech in CSE</b>. <br/><br/>
             I have done an internship as a <b>software developer</b> at GoalFi which is a fintech startup.
             I love to create original projects with beautiful designs, you can check out some of my work in the projects section.<br/><br/>
             I am <b>open</b> to new collaborations or work where I can contribute and grow. Feel free to connect with me, links are in the footer.<br/>
@@ -54,4 +54,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Education

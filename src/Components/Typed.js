@@ -1,12 +1,14 @@
 import React from 'react';
+import {FaGithub} from "react-icons/fa";
 import Typewriter from  'typewriter-effect';
 
 const Typed = () => {
   return (
     <div className="TypeEffect">
+      <div className='GithubProfile'>
       <Typewriter
         options={{
-          strings: ['Software Developer', 'MERN Stack Developer'],
+          strings: ['Web Developer', 'Graphic Designer'],
           autoStart: true,
           loop: true,
           delay: 70,
@@ -14,6 +16,8 @@ const Typed = () => {
         }}
       />
     </div>
+    <a href="https://github.com/DevanshSahni"><FaGithub/></a></div>
+
   )
 }
 

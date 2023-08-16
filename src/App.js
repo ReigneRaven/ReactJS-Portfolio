@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import Nav from './Components/Navbar';
 import Footer from "./Components/Footer";
 import Home from "./Components/Home";
-import About from "./Components/About";
+import Education from "./Components/Education";
 import Project from "./Components/Projects";
 import MoveToTop from "./Components/MoveToTop";
 import Lottie from  "lottie-react";
@@ -47,7 +47,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/Project" element={<Project/>}/>
-        <Route path="/About" element={<About/>}/>
+        <Route path="/Education" element={<Education/>}/>
       </Routes>
       
       <Footer/>
