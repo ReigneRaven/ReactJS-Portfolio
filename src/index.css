@@ -412,9 +412,9 @@ b{
   letter-spacing: 0.5px;
   font-size: 18px;
   line-height: 22px;
-  
   margin: 0px 25px 50px 25px;
   transition: 0.5s;
+  margin-bottom: 10%;
 }
 .projectBox:hover{
   transform: scale(1.05);
