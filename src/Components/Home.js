@@ -27,12 +27,10 @@ const Home = () => {
 
       <div className='EducationPage'>
         <div className='EducationText'>
-          <h1 className='EducationTextHeading'>Brief <b>introduction</b></h1>
+          <h1 className='EducationTextHeading'>Brief <b>Overview</b></h1>
           <p>I adore the process of developing a simple concept into a website.  As a developer, I want to accomplish work that challenges me to achieve something I can be proud of.<br /><br />
-            I am fluent in <b>C++</b> and know a bit of <b>Python</b> and am working on a few 
-            projects in the <b>MERN</b> stack.<br />
-            I plan to learn <b>Next.js</b>, <b>Three.js</b> and<b> Typescript</b> in the near future. <br /><br />
-            Also, I love <b>coffee</b> <CiCoffeeCup style={{scale:"1.5", rotate:"15deg"}}/>   
+            I am fluent in <b>Java</b> and know a bit of <b>Python</b> and  I'm currently working on several projects. I intend to learn <b>Reactjs</b>, <b>Javascript</b> and<b> Tailwind Css</b> more in the near future. <br /><br />
+            Also, I love <b>coffee</b> very much <CiCoffeeCup style={{scale:"1.5", rotate:"15deg"}}/>   
           </p>
         </div>
         <Tilt>

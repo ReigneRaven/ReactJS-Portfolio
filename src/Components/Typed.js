@@ -16,8 +16,7 @@ const Typed = () => {
         }}
       />
     </div>
-    <a href="https://github.com/DevanshSahni"><FaGithub/></a></div>
-
+    <a href="https://github.com/ReigneRaven"><FaGithub/></a></div>
   )
 }
 

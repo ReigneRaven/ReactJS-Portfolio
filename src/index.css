@@ -227,6 +227,10 @@ b{
   letter-spacing: 0.6px;
 }
 
+.TypeEffect a{
+  padding: 80%;
+}
+
 .illustration{
   width: 400px;
   height: 400px;
