@@ -5,17 +5,16 @@ import {CgFileDocument} from "react-icons/cg";
 
 const  ProjectBox = ({projectPhoto, projectName}) => {
   const desc = {
-    TindogDesc : "This website is a landing page of Tinder but for dogs. It is a responsive website which was made to understand Bootstrap. I also learned how to host my project on Github and then how to deploy that project using Github pages.",
-    TindogGithub : "https://github.com/DevanshSahni/tindog",
-    TindogWebsite : "https://devanshsahni.github.io/tindog/",
+    PhotoStudioDesc : "Professionals, their families, and other clients will be catered to in this photo studio in order to capture and showcase the significant moments in their lives. In order to maintain their images current, we shall build a relationship in which we make the calls. They will be notified by email when their images become available as free downloads on our website.",
+    PhotoStudioGithub : "https://github.com/ReigneRaven/Photo-Studio.git",
+    PhotoStudioWebsite : "https://photo-studio-six.vercel.app/",
 
-    RogFreeDesc : "A website that shows you over seven specialized yoga postures for specific diseases or health problems. This was a group project made in a team of two for a 36-hour-long online hackathon named Hackodisha 2.0.",
-    RogFreeGithub : "https://github.com/DevanshSahni/Rog-Free",
-    RogFreeWebsite : "https://devanshsahni.github.io/Rog-Free/",
+    JeepCityDesc : "To assist you in navigating Dagupan City, JeepCity offers free maps and real-time directions. View timetables, routes, and schedules to see the cost and travel time to various locations in Dagupan City in real time.",
+    JeepCityGithub : "https://github.com/ReigneRaven/JeepCity.git",
 
-    NewsletterDesc:"A newsletter signup site made using Mailchimp API where the signups can be monitored from the MailChimp account. This project was made to understand API integration, environment variables and vercel deployment.",
-    NewsletterGithub:"",
-    NewsletterWebsite:"https://newsletter-signup-teal.vercel.app/"
+    PortfolioDesc:"This digital portfolio serves as an online platform for the work I have produced as well as the knowledge and expertise that relate to my area of interest. It also provides a background of myself, my interests, and a glimpse into my creative side.",
+    PortfolioGithub:"https://github.com/ReigneRaven/Ravens-Portfolio.git",
+    PortfolioWebsite:"https://ravens-portfolio.vercel.app/"
   }
 
   let show ='';
