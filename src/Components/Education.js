@@ -1,57 +1,57 @@
 import React from 'react';
-import Skills from './Skills.js';
-import Tilt from 'react-parallax-tilt';
-import Lottie from "lottie-react"
-import Coder from '../LottieFiles/coder.json';
+import College from '../images/college.jpg';
+import Highschool from '../images/highschool.jpg';
+import {
+  MDBCard,
+  MDBCardBody,
+  MDBCardTitle,
+  MDBCardText,
+  MDBCardImage
+} from 'mdb-react-ui-kit';
 
 const Education = () => {
   return (
     <>
-      <div className='EducationPage'>
-        <div className='EducationText'>
-          <h1 className='EducationTextHeading' >Get to <b>know</b> me!</h1>
-          <p>
-            Hi, my name is <b>Reigne Raven</b> and I am 3rd Year IT student from UPANG
-            I'm a <b>Web developer</b> and a final year college student pursuing <b>BTech in CSE</b>. <br/><br/>
-            I have done an internship as a <b>software developer</b> at GoalFi which is a fintech startup.
-            I love to create original projects with beautiful designs, you can check out some of my work in the projects section.<br/><br/>
-            I am <b>open</b> to new collaborations or work where I can contribute and grow. Feel free to connect with me, links are in the footer.<br/>
-            Apart from coding I love to do photography, you can check out some of my shots here <a href="https://www.instagram.com/devansh_sahni_/?hl=en" target='_blank'>Instagram.</a>
-          </p>
-        </div>
+    <h1 className='educationHeading'>My <b>Education</b></h1>
+      <MDBCard className='card'>
+        <MDBCardImage position='top' src={Highschool} alt="" />
+        <MDBCardBody>
+          <MDBCardText>
+            <b><strong>Joyland School Inc.</strong></b><br />
+            Highschool — 2019<br /><br />
+          </MDBCardText>
+          <MDBCardText>
+            <small className='text-muted'>Graduated with High Honors<br />Best in Computer</small>
+          </MDBCardText>
+        </MDBCardBody>
+      </MDBCard>
 
-        <div>
-          <Tilt>
-              <Lottie 
-              className="illustration" 
-              animationData={Coder} 
-              loop={true} 
-            />
-          </Tilt>
-        </div>
+      <MDBCard className='card'>
+        <MDBCardImage position='top' src={Highschool} alt="" />
+        <MDBCardBody>
+          <MDBCardText>
+            <b><strong>Joyland School Inc.</strong></b><br />
+            Senior Highschool — 2021<br /><br />
+          </MDBCardText>
+          <MDBCardText>
+            <small className='text-muted'>Graduated with High Honors<br />Loyalty Awardee</small>
+          </MDBCardText>
+        </MDBCardBody>
+      </MDBCard>
 
-      </div>
-      
-      <h1 className='SkillsHeading'>Proffesional Skillset</h1>
-      <div className='skills'>
-        
-        <Skills skill='React' />
-        <Skills skill='Node' />
-        <Skills skill='Express' />
-        <Skills skill='MongoDb' />
-        <Skills skill='Git' />
-        <Skills skill='Github' />
-        <Skills skill='Javascript' />
-        <Skills skill='C++' />
-        <Skills skill='Python' />
-        <Skills skill='Figma' />
-        <Skills skill='Vercel' />
-        <Skills skill='Npm' />
-        <Skills skill='Bootstrap'/>
-        
-      </div>
+      <MDBCard className='card'>
+        <MDBCardImage position='top' src={College} alt="" />
+        <MDBCardBody>
+          <MDBCardText>
+            <b><strong>Phinma University of Pangasinan</strong></b><br />
+            Present<br /><br />
+          </MDBCardText>
+          <MDBCardText>
+            <small className='text-muted'>Currently studying at UPANG as a third-year BSIT student majoring in web development</small>
+          </MDBCardText>
+        </MDBCardBody>
+      </MDBCard>
     </>
-  )
+  );
 }
-
 export default Education
