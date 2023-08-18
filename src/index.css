@@ -35,10 +35,12 @@ b{
   width: 10px;
   scroll-behavior: smooth;
 }
+
 ::-webkit-scrollbar-track {
   background: #274656;
   border-radius: 100px;
 }
+
 ::-webkit-scrollbar-thumb {
   background: #01111a;
   border-radius: 100px;
@@ -63,18 +65,14 @@ b{
   top: -30px;
 }
 
-
-/* NAVBAR */
-
+/* Navbar */
 .Navbar{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
   position: fixed;
   width: 100%;
   z-index: 2;
-
   height: 70px;
   top: 0;
   transition: all 0.7s;
@@ -137,10 +135,12 @@ b{
   border-radius: 2px;
   transition: 0.3s;
 }
+
 .NavbarLinks a:hover:after{
   width: 95%;
 }
-.Hamburger{
+
+.Sidebar{
   display: none;
 }
 
@@ -163,19 +163,16 @@ b{
     transform: translateX(100%);
     transition: 0.5s;
   }
-
   .showNavbar{
     transform: translateX(0);    
   }
-
-  .Hamburger{
+  .Sidebar{
     display: block;
     z-index: 2;
     padding: 5px;
     padding-right: 7%;
     cursor: pointer;
   }
-
   .bar{
     display: block;
     background-color: #E7E7E7;
@@ -200,12 +197,9 @@ b{
     rotate: 225deg;
     transition: 0.5s;
   }
-  
 }
 
-
-/* HOME PAGE */
-
+/* Homepage */
 .HomePage{
   display: flex;
   justify-content: space-evenly;
@@ -213,6 +207,7 @@ b{
   margin-top: 100px;
   align-items: center;
 }
+
 .HomeText h1{
   font-weight: 600;
   font-size: 38px;
@@ -275,8 +270,7 @@ b{
   }
 }
 
-
-/* EDUCATION */
+/* Education */
 
 .educationHeading{
   text-align: center;
@@ -284,10 +278,6 @@ b{
   letter-spacing: 0.4px;
   font-size: 36px;
   margin-top: 100px;
-}
-
-.MDBCardTitle {
-  font-size: 100px;
 }
 
 .card {
@@ -350,32 +340,45 @@ b{
 }
 
 @media(max-width:900px){
-  .EducationPage{
-    display: block;
+  .educationHeading{
     text-align: center;
-    margin-top: 150px;
-    padding: 30px;    
+    padding: 75px 0;
+    letter-spacing: 0.4px;
+    font-size: 36px;
+    margin-top: 100px;   
   }
-  .EducationText{
-    text-align: left;
-    display: inline-block;
-    width: 95%;
-    line-height: 24px;
-    letter-spacing: 0.6px;
-    margin-bottom: 80px;
+  .card{
+    width: 300px;
+    border: 3px solid #431f47;
+    border-radius: 5px;
+    text-align: center;
+    float: left;
+    padding: 16px;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0px 25px 200px 40px;
+    transition: 0.5s;
   }
-  .EducationTextHeading{
-    font-size: 26px;
+  .card-img-top{
+    width: 300px;
+    margin-bottom: 20px;
   }
-
   .Avatar{
     width: 200px;
     margin-bottom: 75px;
   }
 }
 
-/* Project */
+/* Skills section */
+.skills{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px 10%;
+}
 
+/* Project */
 .projectHeading{
   text-align: center;
   padding: 75px 0;
@@ -431,20 +434,17 @@ b{
   border-style: none;
 }
 
-/* FOOTER */
-
+/* Footer */
 footer{
   width: 90%;
   height: 40px;
   margin: 10px auto;
   margin-top: 80px;
   letter-spacing: 0.5px;
-  
   display:flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
-  
   position: relative;
   bottom: 0px;
   text-align: center;

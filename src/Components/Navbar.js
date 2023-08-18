@@ -41,10 +41,9 @@ const Nav = () => {
 
   return (
     <nav className={navbarblur? 'Navbar blur':'Navbar'}> 
- 
         <h1 title='Reload' onClick={()=>window.location.reload(true)} className='Logo'>RRR</h1>
 
-        <div className='Hamburger' onClick={showMenu}>
+        <div className='Sidebar' onClick={showMenu}>
             <span className='bar'></span>
             <span className='bar'></span>
             <span className='bar'></span>
@@ -55,7 +54,6 @@ const Nav = () => {
             <li onClick={hideMenu}><Link to="/Project"><BsCodeSlash/> Work</Link></li>
             <li onClick={hideMenu}><Link to="/Education"><BsPerson/> Education</Link></li>
         </ul>
-        
     </nav>
   )
 }
