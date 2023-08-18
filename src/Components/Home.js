@@ -12,7 +12,7 @@ const Home = () => {
       <div className='HomePage'>
         <div className='HomeText'>
           <h1>Yahaloooo!</h1>
-          <h1>I'M <b>REIGNE RAVEN</b></h1>
+          <h1>I'M <b>REIGNE RAVEN RAMOS</b></h1>
           <Typed/>   
         </div>
         <Lottie 

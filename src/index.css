@@ -124,6 +124,7 @@ b{
 .NavbarLinks a:hover{
   color: #ffffff;
 }
+
 .NavbarLinks a::after{
   background-color: #ffffff;
   content: "";
@@ -271,7 +272,6 @@ b{
 }
 
 /* Education */
-
 .educationHeading{
   text-align: center;
   padding: 75px 0;
@@ -290,7 +290,7 @@ b{
   letter-spacing: 0.5px;
   font-size: 18px;
   line-height: 22px;
-  margin: 0px 25px 230px 140px;
+  margin: 0px 25px 265px 140px;
   transition: 0.5s;
 }
 
@@ -364,18 +364,26 @@ b{
     width: 300px;
     margin-bottom: 20px;
   }
+  .EducationPage{
+    display: block;
+    text-align: center;
+    padding: 30px;    
+  }
+  .EducationText{
+    text-align: left;
+    display: inline-block;
+    width: 95%;
+    line-height: 24px;
+    letter-spacing: 0.6px;
+    margin-bottom: 80px;
+  }
+  .EducationTextHeading{
+    font-size: 26px;
+  }
   .Avatar{
     width: 200px;
     margin-bottom: 75px;
   }
-}
-
-/* Skills section */
-.skills{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 50px 10%;
 }
 
 /* Project */
@@ -437,7 +445,7 @@ b{
 /* Footer */
 footer{
   width: 90%;
-  height: 40px;
+  height: 10px;
   margin: 10px auto;
   margin-top: 80px;
   letter-spacing: 0.5px;

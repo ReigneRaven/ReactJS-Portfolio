@@ -34,7 +34,7 @@ const Education = () => {
             Senior Highschool — 2021<br /><br />
           </MDBCardText>
           <MDBCardText>
-            <small className='text-muted'>Graduated with High Honors<br />Loyalty Awardee</small>
+            <small className='text-muted'>Graduated with High Honors<br />Loyalty Awarde</small>
           </MDBCardText>
         </MDBCardBody>
       </MDBCard>
