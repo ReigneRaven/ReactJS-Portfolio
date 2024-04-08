@@ -1,4 +1,4 @@
-<h2 align="center">Personal Portfolio</h2>
+<h1 align="center">Personal Portfolio</h1>
 
 ## Fork
 
